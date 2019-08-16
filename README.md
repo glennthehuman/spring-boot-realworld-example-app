@@ -42,7 +42,7 @@ These plugins function to generate the .project and .classpath files that the ec
 
 Then from the command line you just do...
 
-    gradle eclipse
+    ./gradlew eclipse
 
 ...and it figures out the dependencies, pulls the JARs over, and generates the .classpath and .project. If you have eclipse open while you are doing this, refresh the project and Voila. Every time you add a dependency in the build.gradle you do this workflow again. It works like a champ for me.
 

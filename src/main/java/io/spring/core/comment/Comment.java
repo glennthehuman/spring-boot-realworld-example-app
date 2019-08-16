@@ -1,6 +1,5 @@
 package io.spring.core.comment;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,7 +7,6 @@ import org.joda.time.DateTime;
 
 import java.util.UUID;
 
-@Data
 @Getter
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")

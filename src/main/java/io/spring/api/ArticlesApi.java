@@ -85,4 +85,7 @@ class NewArticleParam {
     @NotBlank(message = "can't be empty")
     private String body;
     private String[] tagList;
+    
+    // No Getters and Setters, hashCode, Equal-- even though we can refer it from client code.
+    // This is how we are taking help from Lombok to get rid of boiler plate code.
 }
